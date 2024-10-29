@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Enunciado: Crea un formulario que solicite la edad del usuario. Al enviar el formulario, el programa debe mostrar:
+
+        "Infante" si la edad es menor de 12 años.
+        "Adolescente" si tiene entre 12 y 17 años.
+        "Adulto" si está entre 18 y 60 años.
+        "Anciano" si es mayor de 60.
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/EjerciciosPHP/estilos.css">
+    <title>Ejercicio 5. Categorización de edades</title>
+</head>
+<body>
+    <div class="formulario">
+        <h2 class="titulo">Categorización de edades</h2>
+        <br>
+        <h3>Ingrese su edad y le diremos a que categoria pertenece.</h3>
+    <form action="categorizacionDeEdades.php" method="POST">
+        <table>
+            <tr>
+                <td> <label for="numero">Inserte su edad: </label></td>
+                <td> <input type="number" class="numero" name="edad" min="0" max="120"></td>
+            </tr>
+           
+        </table>
+        <p><input type="submit" value="calcular"></p>
+    </form>
+</div>
+</body>
+</html>

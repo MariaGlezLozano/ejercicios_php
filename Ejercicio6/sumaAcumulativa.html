@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--Enunciado: Diseña un formulario que pida al usuario un número N. 
+Al enviar el formulario, el programa debe calcular y mostrar la suma de todos los números desde 1 hasta N.
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos.css">
+    <title> ejercicio 6. Suma acumulativa</title>
+</head>
+<body>
+    <div class="formulario">
+        <h2 class="titulo">Suma acumulativa</h2>
+        <br>
+        <h3>Calcular la suma de todos los numeros desde 1 hasta N</h3>
+    <form action="sumaAcumulativa.php" method="POST">
+        <table>
+            <tr>
+                <td> <label for="num">Inserte un número: </label></td>
+                <td> <input type="number" class="numero" name="num" min="1"></td>
+            </tr>         
+        </table>
+        <p><input type="submit" value="calcular"></p>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    padding-left: 20%;
+}
+body{
+    background-color: antiquewhite;
+}
+.titulo{
+    padding-left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+p{
+    padding-left: 10%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numero{
+    width: 3em;
+}

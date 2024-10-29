@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--Enunciado: Diseña un formulario que pida al usuario la distancia a recorrer (en kilómetros) y la velocidad promedio esperada (en km/h). 
+Al enviar el formulario, el programa debe calcular y mostrar el tiempo que tomará el viaje en horas.
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/EjerciciosPHP/estilos.css">
+    <title>Ejercicio 2. Viaje</title>
+</head>
+<body>
+    <div class="formulario">
+        <h2 class="titulo"></h2>
+        <br>
+    <form action="viaje.php" method="POST">
+        <table>
+            <tr>
+                <td> <label for="nombre">Indique la distancia a recorrer(en Km)</label></td>
+                <td> <input type="number" name="distancia" required></td>
+            </tr>
+            <tr>
+                <td><label for="apellidos">Indique la velocidad promedio esperada(en km/h)</label></td>
+                <td><input type="number" name="velocidad" required></td>
+            </tr>
+        </table>
+        <p><input type="submit" value="enviar"></p>
+    </form>
+</div>
+</body>
+</html>
